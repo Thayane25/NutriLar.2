@@ -1,0 +1,69 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!--Comentário -->
+		<title>Formulário</title>
+	</head>
+	
+	<body bgcolor="white" text="black">
+	<form name="frm_clientes">
+		<center>
+		<p>
+		<h1>Agendamento de avaliação nutricional</h1>
+		</center>
+		<p>
+		<fieldset>
+		<legend><b> DADOS PESSOAIS:</legend>
+		NOME COMPLETO: <br>
+		<input type="text" value="" size="60" maxlength="60" required><p>
+	
+		SELECIONE SUA IDADE:   
+		<input type="number" min="1" max="100"><p>
+		SEXO:
+		<input type="radio" name="sexo">Masculino&nbsp;&nbsp
+		<input type="radio" name="sexo">Feminino<p>
+		ALTURA:
+		<input type="number" min="1" max="250"><p>
+			SELECIONE UMA CIDADE:
+		<select name="cidades">
+		  <option value="SA"> Santo André</option>
+		  <option value="SBC"> São Bernardo</option>
+		  <option value="SCS"> São Caetano</option>
+		  <option value="MA"> Mauá</option>
+		  <option value="SP"> São Paulo</option>
+		 </select>
+		 <p>
+		SELECIONE A DATA:
+		<input type="date":><p>
+		SELECIONE O HORÁRIO:
+		<input type="time":><p>
+		
+	
+		OBSERVAÇÕES: <br>
+		<textarea cols="50" rows="6"></textarea>
+	</fieldset>	
+		<p>
+	<fieldset>
+	<legend> SELECIONE O RESULTADO DO IMC:</legend>
+	<input type="radio" name="cor" onclick="document.bgColor='#FFE3B9'">Magreza Grau III&nbsp;
+	<input type="radio" name="cor" onclick="document.bgColor='#FFDBA5'">Magreza Grau II&nbsp;
+	<input type="radio" name="cor" onclick="document.bgColor='#FFD291'">Magreza Grau I&nbsp;
+	<input type="radio" name="cor" onclick="document.bgColor='#FFC673'">Eutrofia I&nbsp;
+	<input type="radio" name="cor" onclick="document.bgColor='#FFBA55'">Sobrepeso&nbsp;
+	<input type="radio" name="cor" onclick="document.bgColor='#FFAE37'">Obesidade Grau I&nbsp;
+	<input type="radio" name="cor" onclick="document.bgColor='#FFA219'">Obesidade Grau II&nbsp;
+	<input type="radio" name="cor" onclick="document.bgColor='#FA9500'">Obesidade Grau III&nbsp;
+	
+
+
+
+	</fieldset>
+	<p>
+	<center>
+	<input type="submit" value="ENVIAR">&nbsp;&nbsp;
+	<input type="reset" value="LIMPAR">&nbsp;&nbsp;
+	</form>	
+	</body>
+</html>
+ 
